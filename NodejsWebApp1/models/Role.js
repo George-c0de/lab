@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose')
 
-const Role = new Schema({
+const Role23 = new Schema({
     value: { type: String, unique: true, default:"USER" },
 })
 
